@@ -1,0 +1,5 @@
+codigo|descricao|preco|estoque
+1234|Feijao|2.20|20
+1122|Arroz|10.20|40
+1033|Cafe|10.55|60
+1055|Acucar|7.25|5

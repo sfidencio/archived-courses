@@ -1,0 +1,5 @@
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>Criando calculadora interativa e fixa eclipse. Linha de comando</message>\r\n<message>Commit inicial projeto DEBUG eclipse.</message>\r\n<message>Criando classe Livro e refatorando classe Pessoa para o pacote model.</message>\r\n<message>Adicionando pessoa</message>\r\n<message>Adicionando classe Pessoa</message>\r\n<message>Comitando codigo IDE Eclipse, usando GIT do eclipse.</message>\r\n</messages>
+eclipse.preferences.version=1
+repositories_view_filters=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<FilterCache/>
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=700,300

@@ -1,0 +1,7 @@
+--cadastro
+
+curl -H "Content-Type: application/json" \
+--request POST -d '{"nome": "Fidencio", "limiteCredito": 2500.89}' \
+http://localhost:8080/api/cliente
+
+--consulta

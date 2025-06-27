@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>parametros</comment>
+<entry key="ultimoUsuarioLogado">fulano</entry>
+<entry key="tokenJWT">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...</entry>
+</properties>

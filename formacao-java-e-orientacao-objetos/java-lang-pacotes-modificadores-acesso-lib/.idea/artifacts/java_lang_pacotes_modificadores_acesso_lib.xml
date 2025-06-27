@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="java-lang-pacotes-modificadores-acesso-lib">
+    <output-path>$PROJECT_DIR$/out/artifacts/java_lang_pacotes_modificadores_acesso_lib</output-path>
+    <root id="archive" name="java-lang-pacotes-modificadores-acesso-lib.jar">
+      <element id="module-output" name="java-lang-pacotes-modificadores-acesso-lib" />
+    </root>
+  </artifact>
+</component>

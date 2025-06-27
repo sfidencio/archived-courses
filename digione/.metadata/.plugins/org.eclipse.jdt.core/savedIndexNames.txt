@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\fidencio\Documents\Desenvolvimento\Treinamentos\DigiOne\.metadata\.plugins\org.eclipse.jdt.core
+3337129729.index
+1602128660.index

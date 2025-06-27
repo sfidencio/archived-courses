@@ -1,0 +1,3 @@
+fulano;ciclano;beltrano
+celio;gilson;carlos
+armando;neilson;thiago

@@ -1,0 +1,4 @@
+1234;Feijao;2.20
+1122;Arroz;10.20
+1123;Macarrao;7.78
+1129;Gasolina;4.147
