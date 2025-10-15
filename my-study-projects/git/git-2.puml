@@ -1,0 +1,42 @@
+@startuml
+start
+:Estar na branch A;
+:git log --oneline --graph;
+note right: Analise o histórico antes de alterar
+:Decidir atualizar com branch B;
+partition "Escolha" {
+    if (Usar merge?) then (Sim)
+        :git merge B;
+        if (Branch A sem commits exclusivos?) then (Sim)
+            :Fast-forward;
+            :Apenas move o ponteiro de A;
+        else (Não)
+            :Cria commit de merge;
+            :Histórico ramificado;
+        endif
+        :git log --oneline --graph;
+        note right: Verifique o histórico após o merge
+        :git push;
+        note right: Push normal, não precisa --force
+    else (Não)
+        :git rebase B;
+        if (Branch A sem commits exclusivos?) then (Sim)
+            :Fast-forward;
+            :Apenas move o ponteiro de A;
+        else (Não)
+            :Reescreve os commits de A no topo de B;
+            :Histórico linear;
+        endif
+        :git log --oneline --graph;
+        note right: Verifique o histórico após o rebase
+        if (Commits exclusivos já foram enviados para o remoto?) then (Sim)
+            :git push --force;
+            note right: Necessário --force pois o histórico foi reescrito
+        else (Não)
+            :git push;
+            note right: Push normal
+        endif
+    endif
+}
+stop
+@enduml
