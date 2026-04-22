@@ -7,6 +7,7 @@ This document presents a comprehensive guide to the skills and knowledge that a 
 - [🧱 Language Fundamentals](#-language-fundamentals)
 - [📚 Intermediate Concepts](#-intermediate-concepts)
 - [🚀 Advanced Concepts](#-advanced-concepts)
+- [⚡ Performance and Scalability](#-performance-and-scalability)
 - [🏗️ Design Patterns and Architecture](#️-design-patterns-and-architecture)
 - [🔧 Tools and Ecosystem](#-tools-and-ecosystem)
 - [💾 Databases](#-databases)
@@ -36,6 +37,7 @@ graph TD
 
     subgraph "Advanced Level"
     Advanced[Advanced Concepts]
+    Performance[Performance and Scalability]
     Patterns[Design Patterns and Architecture]
     DevOps[DevOps and Infrastructure]
     SoftSkills[Soft Skills]
@@ -52,6 +54,9 @@ graph TD
     Testing --> Advanced
     Web --> Patterns
     DB --> Patterns
+    Advanced --> Performance
+    Performance --> Patterns
+    Performance --> DevOps
     Advanced --> DevOps
     Patterns --> DevOps
     Advanced --> SoftSkills
@@ -98,6 +103,25 @@ graph TD
 - [ ] Plugins and dynamic loading
 - [ ] Assembly in Go
 - [ ] Build constraints and conditional tags
+
+## ⚡ Performance and Scalability
+
+- [ ] [Profiling with pprof (CPU, memory, goroutine, mutex)](performance/profiling-pprof.md)
+- [ ] [Benchmarking with `testing` and `go test -bench`](performance/benchmarking-go-test-bench.md)
+- [ ] Escape analysis and allocation reduction
+- [ ] Garbage Collector behavior and tuning strategies
+- [ ] Memory layout awareness (cache locality, false sharing)
+- [ ] Efficient concurrency patterns for high throughput
+- [ ] Worker pools, pipelines and backpressure
+- [ ] Rate limiting, load shedding and graceful degradation
+- [ ] Connection and resource pooling strategies
+- [ ] Zero-copy techniques and buffer reuse
+- [ ] High-performance networking (timeouts, keep-alive, transport tuning)
+- [ ] Batch processing and queue-based architectures
+- [ ] [Horizontal scaling and stateless service design](performance/horizontal-scaling-stateless.md)
+- [ ] Stress, load and soak testing for high-volume scenarios
+- [ ] Observability for performance (SLI/SLO, RED/USE metrics, tracing)
+- [ ] Performance budgets and continuous regression tracking
 
 ## 🏗️ Design Patterns and Architecture
 
