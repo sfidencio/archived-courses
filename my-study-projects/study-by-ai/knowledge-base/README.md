@@ -10,6 +10,7 @@
 - [⚙️ DevOps](./devops/)
 - [💻 C](./C/)
 - [🅰️ Angular](./angular/)
+- [🖥️ Operating Systems](./OS/)
 - [🤖 Intelligence Artificial](./AI/)
 - [🧩 Software Engineering](./SE/)
 - [🧠 Foundations](./foundations/)
